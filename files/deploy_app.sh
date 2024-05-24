@@ -13,7 +13,13 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
-  Welcome to ${PREFIX}'s app. Replace this text with your own.
+  Welcome to ${PREFIX}'s app. 나는 정말정말 집에 가고 싶습니다.
+  <form>
+        <input type="checkbox" id="homeCheckbox" name="homeCheckbox">
+        <label for="homeCheckbox">집에 가고 싶다</label>
+        <input type="checkbox" id="goHomeCheckbox" name="homeCheckbox">
+        <label for="goHomeCheckbox">집에 너무너무 가고 싶다</label>
+    </form>
   <!-- END -->
 
   </div>
